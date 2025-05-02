@@ -1,0 +1,5 @@
+# Should use once user with each private key and public key, not use common private key for all user
+# Using asymmetrical algorithm
+# Public key save in db, private send for user (not save in db because hacker can access to the system to steal information)
+# Public key use to verify token which was generated from private key
+# Private key use to generate token
